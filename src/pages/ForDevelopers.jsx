@@ -20,7 +20,7 @@ const ForDevelopers = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
-              <div className="space-y-6">
+              <div className="space-y-6 text-center"> {/* 主标题居中 */}
                 <h1 className="text-4xl md:text-6xl font-bold text-primary-900 leading-tight">
                   最大化您的
                   <span className="bg-gradient-to-r from-primary-500 to-accent-green bg-clip-text text-transparent">
@@ -31,67 +31,19 @@ const ForDevelopers = () => {
                   通过我们强大而易于集成的JS，将您的PC流量转化为可观、稳定的现金收入。
                 </p>
               </div>
-
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
                   to="/contact" 
                   className="group bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl inline-flex items-center justify-center"
                 >
-                  立即接入SDK
+                  立即接入
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
                 </Link>
-                <button className="group bg-white hover:bg-gray-50 text-primary-500 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-primary-200 hover:border-primary-300 inline-flex items-center justify-center">
-                  查看技术文档
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
-                </button>
               </div>
             </div>
 
             {/* 右侧图表展示 */}
-            <div className="relative">
-              <div className="bg-white rounded-2xl p-8 shadow-2xl border border-gray-100">
-                <div className="text-center mb-6">
-                  <h3 className="text-lg font-bold text-primary-900 mb-2">收益趋势</h3>
-                  <p className="text-gray-500 text-sm">过去6个月eCPM表现</p>
-                </div>
-                
-                {/* 简单的收益图表 */}
-                <div className="space-y-4">
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-600">1月</span>
-                    <div className="flex-1 mx-4 bg-gray-200 h-2 rounded-full">
-                      <div className="bg-gradient-to-r from-primary-500 to-accent-green h-2 rounded-full w-3/4"></div>
-                    </div>
-                    <span className="text-sm font-semibold text-primary-500">$2.3</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-600">2月</span>
-                    <div className="flex-1 mx-4 bg-gray-200 h-2 rounded-full">
-                      <div className="bg-gradient-to-r from-primary-500 to-accent-green h-2 rounded-full w-4/5"></div>
-                    </div>
-                    <span className="text-sm font-semibold text-primary-500">$2.8</span>
-                  </div>
-                  <div className="flex justify-between items-center">
-                    <span className="text-sm text-gray-600">3月</span>
-                    <div className="flex-1 mx-4 bg-gray-200 h-2 rounded-full">
-                      <div className="bg-gradient-to-r from-primary-500 to-accent-green h-2 rounded-full w-full"></div>
-                    </div>
-                    <span className="text-sm font-semibold text-accent-green">$3.5</span>
-                  </div>
-                </div>
-
-                <div className="mt-6 grid grid-cols-2 gap-4">
-                  <div className="text-center p-4 bg-primary-50 rounded-lg">
-                    <div className="text-2xl font-bold text-primary-500">+52%</div>
-                    <div className="text-xs text-gray-600">收益增长</div>
-                  </div>
-                  <div className="text-center p-4 bg-green-50 rounded-lg">
-                    <div className="text-2xl font-bold text-accent-green">98%</div>
-                    <div className="text-xs text-gray-600">填充率</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {/* 已删除收益趋势卡片 */}
           </div>
         </div>
       </section>
@@ -310,29 +262,6 @@ const ForDevelopers = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          {/* 底部CTA */}
-          <div className="mt-16 text-center">
-            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold text-primary-900 mb-4">
-                准备好开始了吗？
-              </h3>
-              <p className="text-gray-600 mb-6">
-                立即注册，获取您的专属App ID，开始集成我们的JS SDK
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link 
-                  to="/contact" 
-                  className="bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-8 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-                >
-                  立即注册开始
-                </Link>
-                <button className="bg-gray-100 hover:bg-gray-200 text-gray-700 px-8 py-3 rounded-xl font-semibold transition-all duration-300">
-                  下载SDK文档
-                </button>
               </div>
             </div>
           </div>

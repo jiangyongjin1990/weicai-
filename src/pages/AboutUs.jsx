@@ -361,23 +361,7 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-r from-primary-50 to-blue-50 p-6 rounded-2xl border border-primary-100">
-                <h4 className="text-lg font-bold text-primary-900 mb-3">工作时间</h4>
-                <div className="space-y-2 text-gray-600">
-                  <p className="flex justify-between">
-                    <span>周一至周五：</span>
-                    <span className="font-medium">09:00 - 18:00</span>
-                  </p>
-                  <p className="flex justify-between">
-                    <span>周六：</span>
-                    <span className="font-medium">10:00 - 17:00</span>
-                  </p>
-                  <p className="flex justify-between">
-                    <span>周日：</span>
-                    <span className="font-medium">值班制</span>
-                  </p>
-                </div>
-              </div>
+
             </div>
 
             {/* 地图占位 */}
@@ -397,23 +381,7 @@ const AboutUs = () => {
                 </div>
               </div>
               
-              <div className="mt-6">
-                <h4 className="text-lg font-bold text-primary-900 mb-3">交通指南</h4>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <div className="flex items-center">
-                    <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
-                    <span>地铁2号线古翠路站B出口，步行5分钟</span>
-                  </div>
-                  <div className="flex items-center">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-                    <span>公交古翠路口站，多条线路直达</span>
-                  </div>
-                  <div className="flex items-center">
-                    <div className="w-2 h-2 bg-orange-500 rounded-full mr-3"></div>
-                    <span>停车场：大厦地下停车库</span>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>

@@ -22,15 +22,11 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center text-gray-300">
                 <Mail className="mr-2" size={16} />
-                <span>contact@hutui.com</span>
-              </div>
-              <div className="flex items-center text-gray-300">
-                <Phone className="mr-2" size={16} />
-                <span>400-888-9999</span>
+                <span>ht@163.com</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="mr-2" size={16} />
-                <span>北京市朝阳区科技园区</span>
+                <span>浙江省杭州市西湖区西溪国际商务中心7楼</span>
               </div>
             </div>
           </div>

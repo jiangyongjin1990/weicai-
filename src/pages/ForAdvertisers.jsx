@@ -41,10 +41,7 @@ const ForAdvertisers = () => {
                   开始投放广告
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
                 </Link>
-                <button className="group bg-white hover:bg-gray-50 text-primary-500 px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-primary-200 hover:border-primary-300 inline-flex items-center justify-center">
-                  查看投放案例
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
-                </button>
+
               </div>
             </div>
 
